@@ -10,7 +10,7 @@ public class Calculator {
         return a - b;
     }
 
-    public int multiply(int a, int b) {
+    public int mul(int a, int b) {
         return a * b;
     }
 
@@ -26,7 +26,7 @@ public class Calculator {
 
         System.out.println("Addition: " + calc.add(10, 5));
         System.out.println("Subtraction: " + calc.sub(10, 5));
-        System.out.println("Multiplication: " + calc.multiply(10, 5));
+        System.out.println("Multiplication: " + calc.mul(10, 5));
         System.out.println("Division: " + calc.divide(10, 5));
     }
 }
