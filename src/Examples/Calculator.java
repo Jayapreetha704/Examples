@@ -14,7 +14,7 @@ public class Calculator {
         return a * b;
     }
 
-    public int divide(int a, int b) {
+    public int div(int a, int b) {
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero is not allowed.");
         }
@@ -27,6 +27,6 @@ public class Calculator {
         System.out.println("Addition: " + calc.add(10, 5));
         System.out.println("Subtraction: " + calc.sub(10, 5));
         System.out.println("Multiplication: " + calc.mul(10, 5));
-        System.out.println("Division: " + calc.divide(10, 5));
+        System.out.println("Division: " + calc.div(10, 5));
     }
 }
